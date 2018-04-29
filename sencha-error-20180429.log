@@ -1,0 +1,152 @@
+Sencha Cmd 6.5.3.6 - Crash report
+================================================
+An error occurred while executing the following command: ant phonegap-clean
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : /Users/jb/touchApp                                
+                           app.build.dir : /Users/jb/touchApp/build/touchApp                 
+     app.builds.native.cordova.config.id : com.jb.touchApp                                   
+   app.builds.native.cordova.config.name : touchApp                                          
+app.builds.native.cordova.config.platforms : ios android                                       
+              app.builds.native.packager : cordova                                           
+                  app.builds.web.default : true                                              
+                        app.cache.deltas : deltas                                            
+                        app.cache.enable : true                                              
+                           app.classpath : app,app.js                                        
+                         app.classpath.0 : app                                               
+                         app.classpath.1 : app.js                                            
+                    app.classpath.length : 2                                                 
+                         app.cmd.version : 6.5.3.6                                           
+                          app.config.dir : /Users/jb/touchApp/.sencha/app                    
+                   app.cordova.config.id : com.domain.touchApp                               
+                 app.cordova.config.name : touchApp                                          
+                 app.cordova.config.path : /Users/jb/touchApp/cordova                        
+               app.cordova.config.target :                                                   
+              app.cordova.config.verbose : false                                             
+                   app.cordova.js.0.path : cordova.js                                        
+               app.cordova.js.0.priority : 1000                                              
+                 app.cordova.js.0.remote : true                                              
+                   app.cordova.js.length : 1                                                 
+                 app.cordova.microloader : /Users/jb/touchApp/.sencha/app/microloader/testing.js
+                 app.cordova.output.base : /Users/jb/touchApp/cordova/www                    
+         app.cordova.output.cache.enable : false                                             
+        app.cordova.output.deltas.enable : false                                             
+       app.cordova.output.manifest.embed : true                                              
+                                 app.dir : /Users/jb/touchApp                                
+                           app.framework : touch                                             
+                   app.framework.version : 2.4.2.571                                         
+                                  app.id : 6ac173f8-bb67-497d-bc0d-f6ce74b7bab4              
+                       app.indexHtmlPath : index.html                                        
+                                app.name : touchApp                                          
+                         app.output.base : /Users/jb/touchApp/build/${build.environment}/touchApp
+           app.output.microloader.enable : true                                              
+                  app.phonegap.config.id : com.domain.touchApp                               
+                app.phonegap.config.name : touchApp                                          
+                app.phonegap.config.path : /Users/jb/touchApp/phonegap                       
+              app.phonegap.config.remote : false                                             
+             app.phonegap.config.verbose : false                                             
+                  app.phonegap.js.0.path : phonegap.js                                       
+              app.phonegap.js.0.priority : 1000                                              
+                app.phonegap.js.0.remote : true                                              
+                  app.phonegap.js.length : 1                                                 
+                app.phonegap.microloader : /Users/jb/touchApp/.sencha/app/microloader/testing.js
+                app.phonegap.output.base : /Users/jb/touchApp/phonegap/www                   
+        app.phonegap.output.cache.enable : false                                             
+       app.phonegap.output.deltas.enable : false                                             
+      app.phonegap.output.manifest.embed : true                                              
+                      app.resource.paths :                                                   
+        app.slicer.js.0.isWidgetManifest : true                                              
+                    app.slicer.js.0.path : /Users/jb/touchApp/sass/example/custom.js         
+                    app.slicer.js.length : 1                                                 
+                                 app.url : null                                              
+                    buildenvironment.dir : /Users/jb/touchApp                                
+               buildenvironment.load.dir : /Users/jb/touchApp                                
+                          cmd.config.dir : /Users/jb/bin/Sencha/Cmd/6.5.3.6                  
+                                 cmd.dir : /Users/jb/bin/Sencha/Cmd/6.5.3.6                  
+                    cmd.framework.minver : 2.2.0                                             
+                   cmd.framework.version : 2.99.99.99999                                     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : osx                                               
+                     cmd.unicode.escapes : /Users/jb/bin/Sencha/Cmd/6.5.3.6/unicode-escapes.json
+                             cmd.version : 6.5.3.6                                           
+                            cmd.web.port : 1841                                              
+                     config.skipDownload : true                                              
+                      config.skipInherit : false                                             
+                     framework.classpath : /Users/jb/touchApp/touch/src                      
+                    framework.cmd.minver : 3.1.0.53                                          
+                   framework.cmd.version : 4.0.5.87                                          
+                    framework.config.dir : /Users/jb/bin/Sencha/Cmd/6.5.3.6/plugins/touch/2.3
+                           framework.dir : /Users/jb/touchApp/touch                          
+                       framework.ignores : src/locale,src/platform,auth2/Auth.js,scroller/Infinite.js
+                          framework.name : touch                                             
+                  framework.packages.dir : /Users/jb/touchApp/touch/packages                 
+             framework.preprocessor.opts : charts:no                                         
+                       framework.version : 2.4.2.571                                         
+                       inspector.address : http://localhost:1839/                            
+                          repo.local.dir : /Users/jb/bin/Sencha/Cmd/repo                     
+                       shared.sencha.dir : false                                             
+        system.java.net.useSystemProxies : true                                              
+                     workspace.build.dir : /Users/jb/touchApp/build                          
+                    workspace.config.dir : /Users/jb/touchApp/.sencha/workspace              
+                           workspace.dir : /Users/jb/touchApp                                
+         workspace.frameworks.touch.path : /Users/jb/touchApp/touch                          
+      workspace.frameworks.touch.version : 2.4.2.571                                         
+                  workspace.packages.dir : /Users/jb/touchApp/packages/local,/Users/jb/touchApp/packages
+              workspace.packages.extract : /Users/jb/touchApp/packages/remote                
+                     workspace.theme.dir : /Users/jb/touchApp/packages/local,/Users/jb/touchApp/packages/${args.themeName}
+
+Exception information:
+=======================
+Target "phonegap-clean" does not exist in the project "touchApp". 
+     at com.sencha.ant.AntScript.execute(AntScript.java:121)
+     at com.sencha.ant.AntScript.execute(AntScript.java:129)
+     at com.sencha.command.ant.AntCommand.execute(AntCommand.java:120)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+   Caused by: Target "phonegap-clean" does not exist in the project "touchApp". 
+     at org.apache.tools.ant.Project.tsort(Project.java:1912)
+     at org.apache.tools.ant.Project.topoSort(Project.java:1820)
+     at org.apache.tools.ant.Project.topoSort(Project.java:1783)
+     at org.apache.tools.ant.Project.executeTarget(Project.java:1368)
+     at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+     at org.apache.tools.ant.Project.executeTargets(Project.java:1251)
+     at com.sencha.ant.AntScript.execute(AntScript.java:117)
+     at com.sencha.ant.AntScript.execute(AntScript.java:129)
+     at com.sencha.command.ant.AntCommand.execute(AntCommand.java:120)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:80)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.install4j.runtime.launcher.UnixLauncher.main(UnixLauncher.java:57)
+
